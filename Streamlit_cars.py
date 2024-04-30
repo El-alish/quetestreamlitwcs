@@ -22,7 +22,7 @@ with tab2:
 
 with tab3:
     continent = st.sidebar.multiselect(
-        "Quel continent souhaitez-vous? ",
+        "Quel continent souhaitez-vous? :warning: :warning: Ce filtre ne fonctionne que dans l'onglet Filtre ",
         options=df.sort_values(by="continent",ascending=False).continent.unique(),
         #default=df["startYear"].unique(),
         default=None
